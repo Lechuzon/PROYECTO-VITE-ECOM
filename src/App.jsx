@@ -1,8 +1,9 @@
 import React from "react";
-import './App.css'
-import Home from "./pages/Home";
+import "../src/App.css"
+import Home from "../src/pages/Home";
+import OurStore from "./pages/OurStore";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "../src/components/Layout";
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />}/>
+            <Route path="product" element={<OurStore />}/>
           </Route>
         </Routes>
       </BrowserRouter>
