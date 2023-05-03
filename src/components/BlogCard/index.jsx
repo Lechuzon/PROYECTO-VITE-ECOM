@@ -9,13 +9,13 @@ const BlogCard = () => {
         </div>
         <div className="blog-content">
           <p className="date">1 Abril, 2023</p>
-          <h5 className="title">A beautiful sunday morning renaissance</h5>
+          <h5 className="title">Un hermoso inicio de domingo por la mañana.</h5>
           <p className="desc">
             lorem ipsum dolor sit amet, consectetur adipis occ occurence velit
             sed diam nonumy euismod. Lore merat, consectetur adipis
           </p>
           <Link to="/blog/:id" className="button">
-            Read More
+            Leer más
           </Link>
         </div>
       </div>
