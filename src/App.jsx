@@ -11,6 +11,12 @@ import Forgotpassword from "./pages/Forgotpassword";
 import Signup from "./pages/Signup";
 import Resetpassword from "./pages/Resetpassword";
 import Wishlist from "./pages/Wishlist";
+import SingleProduct from "./pages/SingleProduct";
+import SingleBlog from "./pages/SingleBlog";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import CompareProduct from "./pages/CompareProduct";
+
 
 function App() {
 
@@ -28,7 +34,11 @@ function App() {
             <Route path="forgot-password" element={<Forgotpassword />}/>
             <Route path="signup" element={<Signup />}/>
             <Route path="reset-password" element={<Resetpassword />}/>
-
+            <Route path="product/:id" element={<SingleProduct />}/>
+            <Route path="blog/:id" element={<SingleBlog />}/>
+            <Route path="cart" element={<Cart />}/>
+            <Route path="checkout" element={<Checkout />}/>
+            <Route path="compare-product" element={<CompareProduct />}/>
           </Route>
         </Routes>
       </BrowserRouter>
