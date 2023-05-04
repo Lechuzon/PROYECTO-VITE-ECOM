@@ -38,7 +38,7 @@ const Footer = () => {
               <h4 className="text-white mb-4">Contactenos</h4>
               <div>
                 <address className="text-white fs-6">
-                  Av.Circunvalacion 227- La Molina
+                  Wilson Plaza Av.Bolivia 180 - Cercado
                   <br /> Lima, Perú <br />
                   Codigo Pin: 234107
                 </address>

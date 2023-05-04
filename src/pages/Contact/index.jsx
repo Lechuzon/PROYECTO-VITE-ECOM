@@ -26,13 +26,13 @@ function Contact() {
           <div className="col-12 mt-5">
             <div className="contact-inner-wrapper d-flex justify-content-between">
               <div>
-                <h3 className="contact-title mb-4">Contact</h3>
+                <h3 className="contact-title mb-4">Contacto</h3>
                 <form action="" className="d-flex flex-column gap-15">
                   <div>
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Name"
+                      placeholder="Nombre"
                     />
                   </div>
                   <div>
@@ -46,7 +46,7 @@ function Contact() {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="Mobile Number"
+                      placeholder="Celular"
                     />
                   </div>
                   <div>
@@ -56,37 +56,38 @@ function Contact() {
                       className="w-100 form-control"
                       cols="30"
                       rows="4"
-                      placeholder="Comments"
+                      placeholder="Comentarios"
                     ></textarea>
                   </div>
                   <div>
-                    <button className="button border-0">Submit</button>
+                    <button className="button border-0">Enviar</button>
                   </div>
                 </form>
               </div>
               <div>
-                <h3 className="contact-title mb-4">Get in touch with us</h3>
+                <h3 className="contact-title mb-4">Póngase en contacto con nosotros</h3>
                 <div>
                   <ul className="ps-0">
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineHome className="fs-5" />
                       <address className="mb-0">
-                        Hno:277, Near village chopal,Mandaura,Sonipat,Haryana
+                      Wilson Plaza Av.Bolivia 180 - Cercado
+Lima, Perú
                       </address>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <BiPhoneCall className="fs-5" />
-                      <a href="tel:+91 6457634569">+91 6457634569</a>
+                      <a href="tel:+91 6457634569">+51 926495434</a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineMail className="fs-5" />
                       <a href="mailto:klitatk.19.96@gmail.com">
-                        klitatk.19.96@gmail.com
+                        malltechstore@gmail.com
                       </a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <BiInfoCircle className="fs-5" />
-                      <p className="mb-0">Monday - Friday 10 AM - 8 PM</p>
+                      <p className="mb-0">Lunes - Viernes 10 AM - 8 PM</p>
                     </li>
                   </ul>
                 </div>
