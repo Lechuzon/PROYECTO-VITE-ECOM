@@ -24,8 +24,8 @@ const SingleProduct = () => {
   }
   return (
     <>
-      <Meta title={"Product Name"} />
-      <BreadCrumb title="Product Name" />
+      <Meta title={"Detalle del producto"} />
+      <BreadCrumb title="Detalle del producto" />
       <Container class1="main-product-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-6">
@@ -156,7 +156,7 @@ const SingleProduct = () => {
                         className="w-100 form-control"
                         cols="30"
                         rows="4"
-                        placeholder="Comments"></textarea>
+                        placeholder="Comentarios"></textarea>
                     </div>
                     <div className="d-flex justify-content-end">
                       <button className="button border-0">Enviar reseña</button>

@@ -41,7 +41,7 @@ const ProductCard= (props) => {
             <p className={`description ${grid===12 ? "d-block":"d-none"}`}>
             At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolamet consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
             </p>
-            <p className="price">S/.100.00</p>
+            <p className="price">S/.99.90</p>
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
@@ -62,7 +62,7 @@ const ProductCard= (props) => {
         <Link className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent">
-              <img src="images/wish.svg" alt="wishlist" />
+              <img src={wish} alt="wishlist" />
             </button>
           </div>
           <div className="product-image">
@@ -84,7 +84,7 @@ const ProductCard= (props) => {
             <p className={`description ${grid===12 ? "d-block":"d-none"}`}>
             At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolamet consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
             </p>
-            <p className="price">S/.100.00</p>
+            <p className="price">S/.89.90</p>
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
