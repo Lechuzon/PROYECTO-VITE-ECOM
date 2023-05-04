@@ -24,8 +24,8 @@ const SingleProduct = () => {
   }
   return (
     <>
-      <Meta title={"Product Name"} />
-      <BreadCrumb title="Product Name" />
+      <Meta title={"Detalle del producto"} />
+      <BreadCrumb title="Detalle del producto" />
       <Container class1="main-product-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-6">
@@ -44,12 +44,13 @@ const SingleProduct = () => {
             <div className="col-6">
             <div className="main-product-details">
               <div className="border-bottom">
-                <h3 className="title"
-                >Kids Headphones Bulk 10 Pack Multi Colored For Students
+                <h3 className="title">
+                Reloj Huawei Fit Pantalla vívida AMOLED de 1.64"
+
                 </h3>
               </div>
               <div className="border-bottom py-3">
-                <p className='price'>$ 100</p>
+                <p className='price'>S/. 100</p>
                 <div className='d-flex align-items-center gap-10'>
                 <ReactStars
                         count={5}
@@ -60,40 +61,40 @@ const SingleProduct = () => {
                       />
                       <p className='mb-0 t-review'>( 2 Reviews )</p>
                 </div>
-                <a className="review-btn" href="#review">Write a Review</a>
+                <a className="review-btn" href="#review">Escriba un comentario</a>
                 </div>
                 <div className="border-bottom py-3">
-                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Type :</h3><p className='product-data'>Watch</p></div>
-                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Brand :</h3><p className='product-data'>Havells</p></div>
-                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Category :</h3><p className='product-data'>Watch</p></div>
-                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Tags :</h3><p className='product-data'>Watch</p></div>
-                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Availability :</h3><p className='product-data'>In Stock</p></div>
-                  <div className="d-flex gap-10 flex-column mt-2 mb-3"><h3 className="product-heading">Size :</h3><div className='d-flex flex-wrap gap-15'>
+                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Tipo:</h3><p className='product-data'>Reloj</p></div>
+                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Marca:</h3><p className='product-data'>Huawei</p></div>
+                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Categoria :</h3><p className='product-data'>Watch</p></div>
+                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Etiquetas :</h3><p className='product-data'>SmartWatch</p></div>
+                  <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Disponibilidad:</h3><p className='product-data'>En Stock</p></div>
+                  <div className="d-flex gap-10 flex-column mt-2 mb-3"><h3 className="product-heading">Talla :</h3><div className='d-flex flex-wrap gap-15'>
                     <span className='badge border border-1 bg-white text-dark border-secondary'>S</span>
                     <span className='badge border border-1 bg-white text-dark border-secondary'>M</span>
                     <span className='badge border border-1 bg-white text-dark border-secondary'>XL</span>
                     <span className='badge border border-1 bg-white text-dark border-secondary'>XXL</span>
                     </div></div>
                   <div className="d-flex gap-10 flex-column mt-2 mb-3"><h3 className="product-heading">Color :</h3><Color /></div>
-                  <div className="d-flex align-items-center gap-15 flex-row mt-2 mb-3"><h3 className="product-heading">Quantity :</h3>
+                  <div className="d-flex align-items-center gap-15 flex-row mt-2 mb-3"><h3 className="product-heading">Cantidad :</h3>
                   <div className=''>
                       <input type="number" name="" min={1} max={10} className='form-control' style={{width: "70px"}} id="" />
                   </div>
                   <div className='d-flex align-items-center gap-30 ms-5'>
-                  <button className="button border-0" type="submit">Add to cart</button>
-                        <button className="button signup">Buy It Now</button>
+                  <button className="button border-0" type="submit">Añadir al carrito</button>
+                        <button className="button signup">Compre ya!</button>
                   </div>
                 </div>
                 <div className='d-flex align-items-center gap-15'>
                   <div>
-                  <a href=""><TbGitCompare className='fs-5 me-2' />Add to compare</a>
+                  <a href=""><TbGitCompare className='fs-5 me-2' />Comparelo</a>
                   </div>
                   <div>
-                  <a href=""><AiOutlineHeart className='fs-5 me-2' />Add to Wishlist</a>
+                  <a href=""><AiOutlineHeart className='fs-5 me-2' />Añadalo a su lista de deseos</a>
                   </div>
                 </div>
-                <div className="d-flex gap-10 flex-column my-3"><h3 className="product-heading">Shippin & Returns :</h3><p className='product-data'>Free shipping and returns on all orders! <br /> {" "} We ship all US domestics orders within <b>5-10 business days!</b></p></div>
-                <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Product Link :</h3><a href="javascript:void(0)" onClick={() => {copyToClipboard ("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg") }}>Copy Product Link</a></div>
+                <div className="d-flex gap-10 flex-column my-3"><h3 className="product-heading">Envios y devoluciones :</h3><p className='product-data'>¡Envío y devoluciones gratis en todos los pedidos!<br /> {" "} ¡Enviamos todos los pedidos domésticos de Perú en un plazo de <b>5-10 días hábiles!</b></p></div>
+                <div className="d-flex gap-10 align-items-center my-2"><h3 className="product-heading">Link del producto :</h3><a href="javascript:void(0)" onClick={() => {copyToClipboard ("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg") }}>Copiar link del producto</a></div>
                 </div>
             </div>
           </div>
@@ -102,7 +103,7 @@ const SingleProduct = () => {
       <Container class1="description-wrapper py-5 home-wrapper-2">
           <div className='row'>
             <div className='col-12'>
-              <h4>Description</h4>
+              <h4>Descripción</h4>
               <div className='bg-white p-3'>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -114,11 +115,11 @@ const SingleProduct = () => {
       <Container class1="reviews-wrapper home-wrapper-2">
           <div className="row">
             <div className="col-12">
-              <h3 id="review">Reviews</h3>
+              <h3 id="review">Reseñas</h3>
               <div className='review-inner-wrapper'>
                 <div className='review-head d-flex justify-content-between align-items-end'>
                   <div>
-                    <h4 className='mb-2'>Customer reviews</h4>
+                    <h4 className='mb-2'>Opiniones de los usuarios</h4>
                     <div className='d-flex align-items-center gap-10'>
                       <ReactStars
                         count={5}
@@ -127,18 +128,18 @@ const SingleProduct = () => {
                         edit="false"
                         activeColor="#ffd700"
                       />
-                      <p className='mb-0'>Based on 2 Reviews</p>
+                      <p className='mb-0'>Basado en 2 reseñas</p>
                     </div>
                   </div>
                   {orderedProduct && (
                     <div>
-                      <a className='text-decoration-underline' href=''>Write a review</a>
+                      <a className='text-decoration-underline' href=''>Escribe un comentario</a>
                     </div>
                   )
                   }
                 </div>
                 <div className="review-form py-4">
-                  <h4>Write a Review</h4>
+                  <h4>Escribe un comentario</h4>
                   <form action="" className="d-flex flex-column gap-15">
                     <div>
                       <ReactStars
@@ -156,10 +157,10 @@ const SingleProduct = () => {
                         className="w-100 form-control"
                         cols="30"
                         rows="4"
-                        placeholder="Comments"></textarea>
+                        placeholder="Comentarios"></textarea>
                     </div>
                     <div className="d-flex justify-content-end">
-                      <button className="button border-0">Submit Review</button>
+                      <button className="button border-0">Enviar</button>
                     </div>
                   </form>
                 </div>
@@ -185,7 +186,7 @@ const SingleProduct = () => {
       <Container class1="popular-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-heading">Our Popular Products</h3>
+              <h3 className="section-heading">Nuestros productos más populares</h3>
             </div>
           </div>
           <div className="row">
