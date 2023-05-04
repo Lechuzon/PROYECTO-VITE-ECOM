@@ -8,8 +8,8 @@ import Container from "../../components/Container";
 function Contact() {
   return (
     <>
-      <Meta title={"Contáctanos "} />
-      <BreadCrumb title="Contáctanos" />
+      <Meta title={"Contactenos "} />
+      <BreadCrumb title="Contactenos" />
       <Container class1="contact-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">

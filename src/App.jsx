@@ -16,6 +16,11 @@ import SingleBlog from "./pages/SingleBlog";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import CompareProduct from "./pages/CompareProduct";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPloicy from "./pages/RefundPloicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import TermAndContions from "./pages/TermAndContions";
+
 
 
 function App() {
@@ -39,6 +44,10 @@ function App() {
             <Route path="cart" element={<Cart />}/>
             <Route path="checkout" element={<Checkout />}/>
             <Route path="compare-product" element={<CompareProduct />}/>
+            <Route path="privacy-policy" element={<PrivacyPolicy />}/>
+            <Route path="refund-policy" element={<RefundPloicy />}/>
+            <Route path="shipping-policy" element={<ShippingPolicy />}/>
+            <Route path="term-conditions" element={<TermAndContions />}/>
           </Route>
         </Routes>
       </BrowserRouter>
