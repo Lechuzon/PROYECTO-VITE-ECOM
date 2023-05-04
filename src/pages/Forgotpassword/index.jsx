@@ -14,9 +14,9 @@ const Forgotpassword = () => {
         <div className="row">
           <div className="col-12">
             <div className="auth-card">
-              <h3 className="text-center   mb-3">Reset your password</h3>
+              <h3 className="text-center   mb-3">Recuperar tu contraseña</h3>
               <p className="text-center mt-2 mb-3">
-                We will send you an email to reset your password
+                Enviaremos un correo para recuperar tu contraseña
               </p>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput type="email" name="email" placeholder="Email" />
@@ -27,9 +27,9 @@ const Forgotpassword = () => {
                      align-items-center"
                   >
                     <button className="button border-0" type="submit">
-                      Submit
+                      Enviar
                     </button>
-                    <Link to="/login">Cancel</Link>
+                    <Link to="/login">Cancelar</Link>
                   </div>
                 </div>
               </form>

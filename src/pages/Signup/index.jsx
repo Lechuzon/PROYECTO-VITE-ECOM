@@ -14,27 +14,27 @@ const Signup = () => {
         <div className="row">
           <div className="col-12">
             <div className="auth-card">
-              <h3 className="text-center mb-3">Sign Up</h3>
+              <h3 className="text-center mb-3">Registrarse</h3>
               <form action="" className="d-flex flex-column gap-15">
-                <CustomInput type="text" name="name" placeholder="Name" />
+                <CustomInput type="text" name="name" placeholder="Nombre" />
                 <CustomInput type="email" name="email" placeholder="Email" />
                 <CustomInput
                   type="tel"
                   name="mobile"
-                  placeholder="Mobile Number"
+                  placeholder="Celular"
                 />
                 <CustomInput
                   className="mt-1"
                   type="password"
                   name="password"
-                  placeholder="Password"
+                  placeholder="Contraseña"
                 />
                 <div>
                   <div
                     className="mt-3 d-flex  justify-content-center gap-15 
                       align-items-center"
                   >
-                    <button className="button border-0">Sign Up</button>
+                    <button className="button border-0">Registrarse</button>
                   </div>
                 </div>
               </form>

@@ -8,8 +8,8 @@ import Container from "../../components/Container";
 const CompareProduct = () => {
   return (
     <>
-         <Meta title={"Compare Products"} />
-         <BreadCrumb title="Compare Products" />
+         <Meta title={"Comparar Productos"} />
+         <BreadCrumb title="Comparar Productos" />
          <Container className="compare-product-wrapper py-5 home-wrapper-2">
                 <div className="row">
                     <div className="col-3">
@@ -25,23 +25,23 @@ const CompareProduct = () => {
                                 <h6 className="price mb-3 mt-3">$ 100</h6>
                                 <div>
                                     <div className="product-detail">
-                                        <h5>Brand:</h5>
-                                        <p>Havels</p>
+                                        <h5>Marca:</h5>
+                                        <p>Casio</p>
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Type:</h5>
-                                        <p>Watch</p>
+                                        <h5>Tipo:</h5>
+                                        <p>Reloj</p>
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Availability:</h5>
-                                        <p>In Stock</p>
+                                        <h5>Disponibilidad:</h5>
+                                        <p>En Stock</p>
                                     </div>
                                     <div className="product-detail">
                                         <h5>Color:</h5>
                                         <Color />
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Size:</h5>
+                                        <h5>Tamaño:</h5>
                                         <div className="d-flex gap-10">
                                             <p>S</p>
                                             <p>M</p>
@@ -64,23 +64,23 @@ const CompareProduct = () => {
                                 <h6 className="price mb-3 mt-3">$ 100</h6>
                                 <div>
                                     <div className="product-detail">
-                                        <h5>Brand:</h5>
-                                        <p>Havels</p>
+                                        <h5>Marca:</h5>
+                                        <p>Casio</p>
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Type:</h5>
-                                        <p>Watch</p>
+                                        <h5>Tipo:</h5>
+                                        <p>Reloj</p>
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Availability:</h5>
-                                        <p>In Stock</p>
+                                        <h5>Disponibilidad:</h5>
+                                        <p>En Stock</p>
                                     </div>
                                     <div className="product-detail">
                                         <h5>Color:</h5>
                                         <Color />
                                     </div>
                                     <div className="product-detail">
-                                        <h5>Size:</h5>
+                                        <h5>Tamaño:</h5>
                                         <div className="d-flex gap-10">
                                             <p>S</p>
                                             <p>M</p>
