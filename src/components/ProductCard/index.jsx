@@ -27,7 +27,7 @@ const ProductCard= (props) => {
             <img src={reloj} className="img-fluid" width={270} alt="product image" />
           </div>
           <div className="product-details">
-            <h6 className="brand">Huawei</h6>
+            <h6 className="brand">Iphone</h6>
             <h5 className="product-title">
               Reloj Huawei Fit Pantalla vívida AMOLED de 1.64"
             </h5>

@@ -13,7 +13,7 @@ function Home() {
           <div className="col-6" id="img-home-1">
             <div className="main-banner position-relative">
               <img
-                src="images/main-banner-1.jpg"
+                src="images/ipad.jpg"
                 className="img-fluid rounded-3 "
                 alt="main banner"
               />
@@ -116,56 +116,56 @@ function Home() {
                   <h6>Camaras</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/camera.jpg" alt="camera  " />
+                <img src="images/camarahome1.webp" alt="camera" width="55%" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
                   <h6>Smart TVs</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/tv.jpg" alt="camera  " />
+                <img src="images/tvled.png" alt="camera" width="55%" />
               </div>
-              <div className="d-flex gap align-items-center">
+              <div className="d-flex gap align-items-center" >
                 <div className="item1">
-                  <h6>Relojes Smart</h6>
+                  <h6>Relojes</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/watch.jpg" alt="camera  " />
+                <img src="images/relojbarra.png" alt="camera" width="55%"/>
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
                   <h6>Musica & Juegos</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/headphone.jpg" alt="camera  " />
+                <img src="images/audifono3.png" alt="camera" width="40%" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
                   <h6>Camaras</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/camera.jpg" alt="camera  " />
+                <img src="images/camarahome1.webp" alt="camera" width="55%" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
                   <h6>Smart TVs</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/tv.jpg" alt="camera  " />
+                <img src="images/tvled.png" alt="camera" width="55%" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
-                  <h6>Relojes Smart</h6>
+                  <h6>Relojes</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/watch.jpg" alt="camera  " />
+                <img src="images/relojbarra.png" alt="camera" width="55%"/>
               </div>
               <div className="d-flex gap align-items-center">
                 <div className="item1">
                   <h6>Musica & Juegos</h6>
                   <p>10 Items</p>
                 </div>
-                <img src="images/headphone.jpg" alt="camera  " />
+                <img src="images/audifono3.png" alt="camera" width="40%" />
               </div>
             </div>
           </div>
