@@ -8,8 +8,8 @@ import CustomInput from "../../components/CustomInput";
 const Forgotpassword = () => {
   return (
     <>
-      <Meta title={"Forgot Password"} />
-      <BreadCrumb title="Forgot Password" />
+      <Meta title={"¿Olvidaste la contraseña?"} />
+      <BreadCrumb title="¿Olvidaste la contraseña?" />
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
