@@ -233,11 +233,6 @@ footer .input-group-text {
 
 }
 
-.featured-wrapper{
-  position: relative;
-  top:-180px;
-}
-
 /*Home wrapper 2 ends*/
 
 
@@ -1017,6 +1012,11 @@ termina aqui*/
     height: 100vh;
   }
   
+  .featured-wrapper{
+    position: relative;
+    top:-180px;
+  }
+
   .header-top-strip {
     width: 100%;
   }
@@ -1174,12 +1174,6 @@ termina aqui*/
   .marque-wrapper{
     position: relative;
     top: -325px;
-  }
-
-  
-
-  footer{
-    
   }
 
   .filter-card{
