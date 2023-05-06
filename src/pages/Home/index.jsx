@@ -10,7 +10,7 @@ function Home() {
     <>
       <Container class1="home-wrapper-1 py-5">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6" id="img-home-1">
             <div className="main-banner position-relative">
               <img
                 src="images/main-banner-1.jpg"
@@ -25,7 +25,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6" id="img-home-2">
             <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
               <div className="small-banner position-relative">
                 <img
@@ -90,7 +90,7 @@ function Home() {
       <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
-            <div className="servies d-flex align-items-center justify-content-between">
+            <div className="servies d-flex align-items-center justify-content-between" id="barra">
               {
                 services?.map((i, j) => {
                   return (
@@ -109,59 +109,59 @@ function Home() {
       </Container>
       <Container class1="home-wrapper-2 py-5">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12" id="barra2">
             <div className="categories d-flex justify-content-between flex-wrap align-items-center">
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Camaras</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/camera.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Smart TVs</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/tv.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Relojes Smart</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/watch.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Musica & Juegos</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/headphone.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Camaras</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/camera.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Smart TVs</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/tv.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Relojes Smart</h6>
                   <p>10 Items</p>
                 </div>
                 <img src="images/watch.jpg" alt="camera  " />
               </div>
               <div className="d-flex gap align-items-center">
-                <div>
+                <div className="item1">
                   <h6>Musica & Juegos</h6>
                   <p>10 Items</p>
                 </div>

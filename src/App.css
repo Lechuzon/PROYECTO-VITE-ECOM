@@ -988,3 +988,128 @@ termina aqui*/
 #prueba1:hover {
   box-shadow: inset 0px 0px 25px #25def7;
 }
+
+/* .checkbtn {
+  font-size: 30px;
+  color: #FFFFFF;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+} */
+
+/* RESPONSIVE */
+
+@media (max-width: 575.98px) { 
+  
+  .header-top-strip {
+    width: 100%;
+  }
+
+  .text-end {
+    margin-right: 20px;
+  }
+
+  .header-upper {
+    width: 100%;
+  }
+
+  #buscador {
+    width: 60%;
+    position: relative;
+    left: 15%;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .logo{
+    margin-left: 110%;
+  }
+
+  .store {
+    margin-top: 45%;
+    margin-left: -60%;
+    text-align: center;
+  }
+
+  .header-bottom {
+    width: 100%;
+  }
+
+  /* .checkbtn {
+    display: block;
+  } */
+
+  .home-wrapper-1 {
+    width: 100%;
+  }
+
+  #img-home-1 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: -25px;
+  }
+
+  #img-home-2 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-top: -25px;
+  }
+
+  .home-wrapper-2 {
+    width: 100%;
+  }
+
+  #barra {
+    height: 80px;
+    gap:10px;
+    
+  }
+
+  #barra2 {
+    margin-top: 50px;
+  }
+
+  #barra2 img {
+    width: 50%;
+  }
+
+
+  .item1 {
+    width:45%;
+  }
+
+  .categories {
+    width:100%;
+  }
+
+}
+
+
+@media (max-width: 767.98px) { 
+
+}
+
+
+@media (max-width: 991.98px) { 
+
+}
+
+
+@media (max-width: 1199.98px) {
+
+ }
+
+
+@media (max-width: 1399.98px) {
+
+}

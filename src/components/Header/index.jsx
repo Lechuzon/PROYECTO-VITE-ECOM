@@ -7,6 +7,7 @@ import user from "../../images/user.svg";
 import cart from "../../images/cart.svg";
 import menu from "../../images/menu.svg";
 import rayo from "../../assets/rayo.svg";
+import bars from "../../images/bars-solid.svg"
 
 function Header() {
   return (
@@ -35,10 +36,10 @@ function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white"><img className="logo" src={rayo} />Mall Tech <div className="store">Store</div> </Link>
+                <Link className="text-white"><img className="logo" src={rayo} /><div className="store"> Mall Tech Store</div> </Link>
               </h2>
             </div>
-            <div className="col-5">
+            <div className="col-5" id="buscador">
               <div className="input-group">
                 <input
                   type="text"
@@ -52,7 +53,7 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-5" id="menu">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link to="/compare-product" className="d-flex align-items-center gap-10 text-white">
@@ -87,6 +88,8 @@ function Header() {
                     </div>
                   </Link>
                 </div>
+                {/* <label for= "check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                <img src= {bars} /> */}
               </div>
             </div>
           </div>
