@@ -7,7 +7,7 @@ import user from "../../images/user.svg";
 import cart from "../../images/cart.svg";
 import menu from "../../images/menu.svg";
 import rayo from "../../assets/rayo.svg";
-import bars from "../../images/bars-solid.svg"
+import bars from "../../images/icon-hamburger.svg"
 
 function Header() {
   return (
@@ -108,22 +108,27 @@ function Header() {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.svg" alt=""/><span className="me-5 d-inline-block">Categorias</span>
+                      <img src="images/icon-hamburger.svg" id="hamburger" alt=""/><span className="me-5 d-inline-block"></span>
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <Link className="dropdown-item text-white" to="#">
-                          Accion
+                        <Link to="/login" className="dropdown-item text-white">
+                          Login
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="#">
-                          Otra accion
+                        <Link to="/compare-product" className="dropdown-item text-white" >
+                          Compare Productos
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="#">
-                          Algo mas aqui
+                        <Link to="/wishlist" className="dropdown-item text-white" >
+                          Lista de deseos
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/cart" className="dropdown-item text-white" >
+                          Carrito
                         </Link>
                       </li>
                     </ul>

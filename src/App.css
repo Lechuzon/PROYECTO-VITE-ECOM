@@ -139,7 +139,9 @@ a {
   color: #25def7 !important;
 }
 
-
+#hamburger{
+  display: none;
+}
 /*Header Part End Here*/
 
 /*Footer Part*/
@@ -930,7 +932,7 @@ termina aqui*/
   width:50px;
   height:50px;
   position: relative;
-  top:15px;
+  top:45px;
   right: 25px;
   background-color: #25def7;
   border-radius: 10%;
@@ -939,7 +941,7 @@ termina aqui*/
 
 .store {
   position: relative;
-  left: 80px;
+  left: 40px;
   top: -10px;
 }
 
@@ -1090,6 +1092,10 @@ termina aqui*/
 
   .categories {
     width:100%;
+  }
+
+  #hamburger{
+    display: block;
   }
 
 }
