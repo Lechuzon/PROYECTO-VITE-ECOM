@@ -205,7 +205,7 @@ function OurStore() {
                 </div>
               </div>
               <div className="products-list pb-5">
-                <div className="d-flex gap-10 flex-wrap">
+                <div className="d-flex gap-10 flex-wrap" id="OurStore-Responsive">
                   <ProductCard grid={grid} />
                 </div>
               </div>

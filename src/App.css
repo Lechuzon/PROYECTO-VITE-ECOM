@@ -1176,13 +1176,10 @@ termina aqui*/
     top: -325px;
   }
 
-  .blog-wrapper{
-    display: none;
-  }
+  
 
   footer{
-    position: relative;
-    top: -325px; 
+    
   }
 
   .filter-card{
@@ -1190,7 +1187,20 @@ termina aqui*/
   }
 
   .filter-sort-grid{
-    max-width: 70%;
+    display: none;
+  }
+  #OurStore-Responsive{
+    margin-left: 60px;
+  }
+
+  #Agrega-Cart{
+    position: relative;
+    left: -220px;
+    top: 380px;
+    gap: 17px;
+  }
+  .other-product-images{
+    display: none !important;
   }
 }
 
