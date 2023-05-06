@@ -87,8 +87,8 @@ function Home() {
           </div>
         </div>
       </Container>
-      <Container class1="home-wrapper-2 py-5">
-        <div className="row">
+      <Container  class1="home-wrapper-2 py-5">
+        <div className="row" id="barra-home">
           <div className="col-12">
             <div className="servies d-flex align-items-center justify-content-between" id="barra">
               {
@@ -183,18 +183,20 @@ function Home() {
         </div>
       </Container>
       <Container class1="famous-wrapper py-5 home-wrapper-2">
-        <div className="row">
+        <div className="row" id="barra3">
           <div className="col-3">
             <div className="famous-card position-relative">
               <img
                 src="images/banner-1.jpg"
-                className="img-fluid"
+                className="famous-img img-fluid"
                 alt="banner"
               />
               <div className="famous-content position-absolute">
                 <h5>Pantalla grande</h5>
-                <h6>Smart Watch Series 7</h6>
-                <p>Desde S/.399 o S/.16.62/mes. por 24 meses.</p>
+                <div className="photo1">
+                  <h6>Smart Watch Series</h6>
+                  <p>Desde S/.399 o S/.16.62/mes. por 24 meses.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -202,13 +204,15 @@ function Home() {
             <div className="famous-card position-relative">
               <img
                 src="images/Banner-2.jpeg"
-                className="img-fluid"
+                className="famous-img img-fluid"
                 alt="banner"
               />
               <div className="famous-content position-absolute">
                 <h5 className="text-dark">Studio Display</h5>
-                <h6 className="text-dark">600 nits de brillo.</h6>
-                <p className="text-dark">Pantalla Retina 5K de 27 pulgadas</p>
+                <div className="photo">
+                  <h6 className="text-dark">600 nits de brillo.</h6>
+                  <p className="text-dark">Pantalla Retina 5K de 27 pulgadas</p>
+                </div>
               </div>
             </div>
           </div>
@@ -216,15 +220,17 @@ function Home() {
             <div className="famous-card position-relative">
               <img
                 src="images/Banner-3.jpeg"
-                className="img-fluid"
+                className="famous-img img-fluid"
                 alt="banner"
               />
               <div className="famous-content position-absolute">
                 <h5 className="text-dark">Smartphones</h5>
-                <h6 className="text-dark">Smartphone 14 pro</h6>
-                <p className="text-dark">
+                <div className="photo">
+                  <h6 className="text-dark">Smartphone 14 pro</h6>
+                  <p className="text-dark">
                   Ahora en Verde. Desde S/.999.00 o S/.41.62/mes. por 24 meses.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -232,15 +238,17 @@ function Home() {
             <div className="famous-card position-relative">
               <img
                 src="images/Banner-4.jpeg"
-                className="img-fluid"
+                className="famous-img img-fluid"
                 alt="banner"
               />
               <div className="famous-content position-absolute">
                 <h5 className="text-dark">Parlantes</h5>
+                <div className="photo">
                 <h6 className="text-dark">Sonido que llena la habitación.</h6>
                 <p className="text-dark">
                   Desde S/.699 o S/.116.58/mes. por 12 meses.
                 </p>
+                </div>
               </div>
             </div>
           </div>

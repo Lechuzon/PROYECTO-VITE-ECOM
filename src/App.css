@@ -233,6 +233,11 @@ footer .input-group-text {
 
 }
 
+.featured-wrapper{
+  position: relative;
+  top:-180px;
+}
+
 /*Home wrapper 2 ends*/
 
 
@@ -1008,6 +1013,9 @@ termina aqui*/
 /* RESPONSIVE */
 
 @media (max-width: 575.98px) { 
+  #root{
+    height: 100vh;
+  }
   
   .header-top-strip {
     width: 100%;
@@ -1032,13 +1040,16 @@ termina aqui*/
   }
 
   .logo{
-    margin-left: 110%;
+    margin-left: 55%;
+    margin-top: -70px;
   }
 
   .store {
-    margin-top: 45%;
-    margin-left: -60%;
+    margin-top: 25%;
+    margin-left: -25%;
     text-align: center;
+    width: 150px;
+
   }
 
   .header-bottom {
@@ -1078,7 +1089,9 @@ termina aqui*/
   }
 
   #barra2 {
-    margin-top: 50px;
+    position: relative;
+    top:-120px;
+
   }
 
   #barra2 img {
@@ -1098,7 +1111,89 @@ termina aqui*/
     display: block;
   }
 
+  #barra-home{
+    display: none;
+  }
+
+
+  .product-card .product-image {
+    height: 100px !important;
+  }
+
+  /* #barra3{
+    height: 500px;
+    border: solid red;
+    position: relative;
+    top:-260px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px; 
+  column-gap: 10px;
+  row-gap: 15px;
+
+  } */
+
+  /* .famous-img{
+    width: 250px;
+  } */
+  #barra3{
+    position: relative;
+    top: -260px;
+  }
+
+  .famous-content h6{
+    font-size: 12px;
+  }
+
+  p .text-dark{
+    display:none;
+  }
+
+  .photo{
+    position: relative;
+    top: 100px;
+  }
+
+  .photo1 p,
+  .photo1 h6{
+    position: relative;
+    top: 100px;
+    color: black !important;
+  }
+
+  .special-wrapper{
+    position: relative;
+    top: -170px;
+  }
+
+  .popular-wrapper{
+    position: relative;
+    top: -250px;
+  }
+
+  .marque-wrapper{
+    position: relative;
+    top: -325px;
+  }
+
+  .blog-wrapper{
+    display: none;
+  }
+
+  footer{
+    position: relative;
+    top: -325px; 
+  }
+
+  .filter-card{
+    width: 180px;
+  }
+
+  .filter-sort-grid{
+    max-width: 70%;
+  }
 }
+
 
 
 @media (max-width: 767.98px) { 
